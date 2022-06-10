@@ -122,7 +122,7 @@ main a:hover {
 }
 
 #statusI {
-    min-width: 480px;
+    min-width: 375px;
     max-width: 480px;
     background-color: rgb(80, 80, 80);
     margin-left: 30px;
