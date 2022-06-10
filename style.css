@@ -50,7 +50,7 @@ header > h1 {
 /*O quadrado*/
 main {
     min-width: 320px;
-    max-width: 1000px;
+    max-width: 750px;
     margin: auto;
     margin-bottom: 30px;
     padding: 10px;
