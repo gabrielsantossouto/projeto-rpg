@@ -57,7 +57,7 @@ main {
     padding: 20px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 
 }
 
@@ -111,8 +111,8 @@ main a:hover {
 }
 
 #statusI {
-    min-width: 385px;
-    max-width: 500px;
+    min-width: 500px;
+    max-width: 550px;
     background-color: rgb(80, 80, 80);
     margin: auto;
     display: block;
@@ -133,3 +133,12 @@ main a:hover {
 #content {
 
 }
+
+
+    min-width: 415px;
+    max-width: 850px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-radius: 10px 10px 10px 10px;
