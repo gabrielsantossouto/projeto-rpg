@@ -30,7 +30,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    zoom: 1;
 }
 /*Cabaçalho do Site(a parte de cima do site)*/
 header {
@@ -50,15 +49,14 @@ header > h1 {
 
 /*O quadrado*/
 main {
-    min-width: 300px;
+    min-width: 415px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     border-radius: 10px 10px 10px 10px;
-
+    
 }
 
 /* Titulo do meu texto */
@@ -111,8 +109,8 @@ main a:hover {
 }
 
 #statusI {
-    min-width: 500px;
-    max-width: 540px;
+    min-width: 375px;
+    max-width: 480px;
     background-color: rgb(80, 80, 80);
     margin: auto;
     display: block;
@@ -121,24 +119,11 @@ main a:hover {
 #statusI > img {
     margin: auto;
     display: block;
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
 }
 
 #caixa1 {
     text-align: center;
     color: rgb(14, 13, 13);
 }
-
-#content {
-
-}
-
-
-    min-width: 415px;
-    max-width: 850px;
-    margin: auto;
-    padding: 15px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
-    border-radius: 10px 10px 10px 10px;
