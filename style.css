@@ -30,6 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    zoom: 1;
 }
 /*Cabaçalho do Site(a parte de cima do site)*/
 header {
@@ -56,7 +57,6 @@ main {
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     border-radius: 10px 10px 10px 10px;
-    
 }
 
 /* Titulo do meu texto */
@@ -126,4 +126,8 @@ main a:hover {
 #caixa1 {
     text-align: center;
     color: rgb(14, 13, 13);
+}
+
+#content {
+
 }
