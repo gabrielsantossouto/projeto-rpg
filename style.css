@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+@font-face {
+
+    font-family: 'Oeste';
+    src: url('fonte-velhooeste.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'coeste';
+    src: url('velhooestefonte.ttf');
+    font-weight: normal;
+}
+
+/*Configuração geral do site*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Corpo do meu site */
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-image: url(thumb-1920-749807.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Cabaçalho do Site(a parte de cima do site)*/
+header {
+    text-align: center;
+    padding-top: 0px;
+}
+
+/*Titulo do meu Site*/
+header > h1 {
+    color: white;
+    font-family: 'Oeste';
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
+    font-family: 'coeste';
+}
+
+
+/*O quadrado*/
+main {
+    min-width: 500px;
+    max-width: 505px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+/* Titulo do meu texto */
+main h1 {
+    color: var(--cor5);
+    font-family: var(--font-android);
+    font-weight: normal;
+    font-size: 1.8em;
+    font-family: 'Oeste';
+}
+
+/* Todo o texto que está dentro da caixa */
+main p {
+    margin: 25px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5em;
+    font-size: 1em;
+
+}
+
+/* A parte de Imagens subtitulo dele */
+main h2 {
+    font-family: var(--font-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 10px;
+    font-weight: normal;
+    font-family: 'Oeste';
+}
+main img {
+    margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(31, 17, 230);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+#status {
+    text-align: center;
+}
+
+#teste {
+    text-align: center;
+    width: 235px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#statusI {
+    min-width: 250px;
+    max-height: 800px;
+    background-color: rgb(80, 80, 80);
+}
