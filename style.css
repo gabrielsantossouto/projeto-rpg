@@ -40,8 +40,6 @@ header {
 /*Titulo do meu Site*/
 header > h1 {
     color: white;
-    font-family: 'Oeste';
-    margin-top: 10px;
     font-weight: normal;
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.37);
@@ -51,11 +49,9 @@ header > h1 {
 
 /*O quadrado*/
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    min-width: 415px;
+    max-width: 850px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
     padding: 15px;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
@@ -66,7 +62,6 @@ main {
 /* Titulo do meu texto */
 main h1 {
     color: var(--cor5);
-    font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
     font-family: 'Oeste';
@@ -74,7 +69,7 @@ main h1 {
 
 /* Todo o texto que está dentro da caixa */
 main p {
-    margin: 25px 0px;
+    margin: 20px 5px;
     text-align: justify;
     text-indent: 15px;
     line-height: 1.5em;
@@ -114,8 +109,8 @@ main a:hover {
 }
 
 #statusI {
-    min-width: 375px;
-    max-width: 480px;
+    min-width: 385px;
+    max-width: 500px;
     background-color: rgb(80, 80, 80);
     margin: auto;
     display: block;
