@@ -122,8 +122,8 @@ main a:hover {
 }
 
 #statusI {
-    min-width: 375px;
-    max-width: 480px;
+    min-width: 275px;
+    max-width: 380px;
     background-color: rgb(80, 80, 80);
     margin-left: 30px;
     margin: auto;
