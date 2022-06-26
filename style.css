@@ -93,8 +93,8 @@ main img {
 }
 
 main a {
-    text-decoration: none;
-    color: rgb(31, 17, 230);
+    text-decoration: underline;
+    color: rgb(25, 22, 199);
 }
 
 main a:hover {
@@ -135,7 +135,9 @@ strong {
 }
 
 #alerta {
-    color: red;
     text-align: center;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
+}
+
+.vermelho {
+    color: red;
 }
