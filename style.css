@@ -62,7 +62,6 @@ main {
 
 /* Titulo do meu texto */
 main h1 {
-    color: var(--cor5);
     font-weight: normal;
     font-size: 1.8em;
     font-family: 'Oeste';
