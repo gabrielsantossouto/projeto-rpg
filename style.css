@@ -54,7 +54,7 @@ header  h2 {
     border-radius: 10px 10px 0px 0px;
     zoom: normal;
     width: 80%;
-    
+    letter-spacing: 2px;
 }
 
 
@@ -63,6 +63,7 @@ header a {
     text-decoration: none;
     color: black;
     margin-bottom: 30px;
+    letter-spacing: 2px;
     
 }
 
@@ -90,6 +91,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
     border-radius: 10px 10px 10px 10px;
     zoom: normal;
+
 }
 
 /* Titulo do meu texto */
@@ -101,6 +103,7 @@ main h1 {
     min-width: 300px;
     max-width: 750px;
     margin: auto;
+    letter-spacing: 2px;
 
 }
 
