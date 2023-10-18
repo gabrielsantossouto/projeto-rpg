@@ -43,28 +43,27 @@ header {
 /*Layout da HABILIDADES*/
 
 
-header > h2 {
-    background-color: white;
-    border-radius: 5px 5px 0px 0px;
-    box-shadow: 0px 0px 5px 5px rgba(49, 49, 49, 0.247);
-    margin: auto;
-    padding: 0px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    width: 740px;
-    height: 30px;
-    color: white;
-    text-align: center;
+header  h2 {
     font-family: 'oeste';
-    font-size: 1.8em;
-    font-weight: bolder;
+    min-width: 320px;
+    max-width: 430px;
+    margin: auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-radius: 10px 10px 0px 0px;
+    zoom: normal;
 }
 
 
 header a {
+    text-align: center;
     text-decoration: none;
     color: black;
+    margin-bottom: 30px;
 }
+
+
 
 /*Titulo do meu Site*/
 header > h1 {
@@ -75,8 +74,9 @@ header > h1 {
     font-family: 'coeste';
 }
 
-
 /*O quadrado*/
+
+
 main {
     min-width: 320px;
     max-width: 750px;
@@ -95,6 +95,10 @@ main h1 {
     font-size: 1.8em;
     font-family: 'Oeste';
     text-align: center;
+    min-width: 450px;
+    max-width: 750px;
+    margin: auto;
+
 }
 
 /* Todo o texto que está dentro da caixa */
@@ -131,6 +135,13 @@ main a:hover {
     text-decoration: underline;
 }
 
+
+
+
+/*Toda a Alteração de cor para o layout*/
+
+
+
 #status {
     text-align: center;
 }
@@ -151,16 +162,11 @@ main a:hover {
     border-radius: 5px 5px 5px 5px;
 }
 
-    /*Titulo*/
-
 #caixa1 {
-    text-decoration: underline rgb(167, 27, 26);
     text-align: center;
-    color: whitesmoke;
-    line-height: 30px;
+    color: black;
 }
 
-   /*SubTitulo*/
 #caixa2 {
     text-align: center;
     color: whitesmoke;
@@ -169,7 +175,6 @@ main a:hover {
 #caixa3 {
     font-weight: bolder;
 }
-
 
 strong {
     color: red;
@@ -181,4 +186,9 @@ strong {
 
 .vermelho {
     color: red;
+}
+
+a > header {
+    width: 740px;
+    height: 30px;
 }

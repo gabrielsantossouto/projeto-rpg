@@ -45,7 +45,7 @@ header {
 
 header  h2 {
     font-family: 'oeste';
-    min-width: 320px;
+    min-width: 200px;
     max-width: 430px;
     margin: auto;
     padding: 10px;
