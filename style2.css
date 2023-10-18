@@ -166,6 +166,10 @@ main a:hover {
     color: whitesmoke;
 }
 
+#caixa3 {
+    font-weight: bolder;
+}
+
 
 strong {
     color: red;

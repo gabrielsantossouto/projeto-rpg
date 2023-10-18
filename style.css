@@ -96,6 +96,7 @@ main h1 {
     font-weight: normal;
     font-size: 1.8em;
     font-family: 'Oeste';
+    text-align: center;
 }
 
 /* Todo o texto que está dentro da caixa */
@@ -161,7 +162,16 @@ main a:hover {
 
 #caixa1 {
     text-align: center;
+    color: black;
+}
+
+#caixa2 {
+    text-align: center;
     color: whitesmoke;
+}
+
+#caixa3 {
+    font-weight: bolder;
 }
 
 strong {
