@@ -66,8 +66,6 @@ header a {
     color: black;
 }
 
-
-
 /*Titulo do meu Site*/
 header > h1 {
     color: white;
@@ -96,6 +94,7 @@ main h1 {
     font-weight: normal;
     font-size: 1.8em;
     font-family: 'Oeste';
+    text-align: center;
 }
 
 /* Todo o texto que está dentro da caixa */
@@ -132,13 +131,6 @@ main a:hover {
     text-decoration: underline;
 }
 
-
-
-
-/*Toda a Alteração de cor para o layout*/
-
-
-
 #status {
     text-align: center;
 }
@@ -159,10 +151,21 @@ main a:hover {
     border-radius: 5px 5px 5px 5px;
 }
 
+    /*Titulo*/
+
 #caixa1 {
+    text-decoration: underline rgb(167, 27, 26);
+    text-align: center;
+    color: whitesmoke;
+    line-height: 30px;
+}
+
+   /*SubTitulo*/
+#caixa2 {
     text-align: center;
     color: whitesmoke;
 }
+
 
 strong {
     color: red;
