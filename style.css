@@ -96,6 +96,7 @@ main {
 
 /* Titulo do meu texto */
 main h1 {
+    padding-bottom: 10px;
     font-weight: normal;
     font-size: 1.8em;
     font-family: 'Oeste';
@@ -180,6 +181,12 @@ main a:hover {
 
 #caixa3 {
     font-weight: bolder;
+    color: white;
+}
+
+#caixa4 {
+    color: black;
+    font-weight: bolder;
 }
 
 strong {
@@ -192,6 +199,7 @@ strong {
 
 .vermelho {
     color: red;
+    font-weight: bolder;
 }
 
 a > header {
