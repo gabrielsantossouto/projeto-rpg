@@ -1,7 +1,7 @@
 {
-    "name": "Meu PWA",
-    "short_name": "MeuPWA",
-    "start_url": "/",
+    "name": "Som Das Seis",
+    "short_name": "SDS",
+    "start_url": "/Som-Das-Seis/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
