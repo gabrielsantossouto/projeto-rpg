@@ -1,9 +1,9 @@
 {
     "name": "Som Das Seis",
-    "short_name": "SDS",
+    "short_name": "Manual de regras",
     "start_url": "/projeto-rpg/",
     "display": "standalone",
-    "background_color": "#002763",
+    "background_color": "#B32424",
     "theme_color": "#000000",
     "icons": [
       {
