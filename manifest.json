@@ -3,8 +3,8 @@
     "short_name": "Manual de Regras",
     "start_url": "/projeto-rpg/",
     "display": "standalone",
-    "background_color": "#f0111c",
-    "theme_color": "#f0111c",
+    "background_color": "#B02024",
+    "theme_color": "#c20c15",
     "icons": [
       {
         "src": "icon-192x192.png",
